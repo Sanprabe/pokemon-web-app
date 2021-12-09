@@ -9,8 +9,7 @@ import { GameContext } from '../../GameContext/GameContext'
 function Catch() {
 
     
-    const { 
-        // pokemonListNames,
+    const {
         loadingPokemonList, 
         errorPokemonList,
         cardPokemon,

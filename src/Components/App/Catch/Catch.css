@@ -1,0 +1,49 @@
+.app--container{
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+
+.header-title {
+    margin: 10px 0;
+    text-align: center;
+
+    min-height: 100px;
+    width: 100%;
+
+    background-image: url('../../../Assets/pokedeex.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+
+main h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.main-saved-pokemons--container{
+    display: flex;
+
+}
+
+.main-saved-pokemons--container h3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.main-saved-pokemons--container h3 span{
+    color: #CA2610;
+}
+
+.main-save-pokemons--existPokemon{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: 15px;
+    margin-top: 15px;
+}

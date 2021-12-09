@@ -1,0 +1,50 @@
+nav {
+    background-color: #CA2610;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav-pokeball--logo{
+    background-image: url('../../../Assets/pokeball.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    align-self: flex-start;
+
+    height: 50px;
+    width: 50px;
+}
+
+nav ul{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    color: #CA2610;
+}
+
+nav ul li{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin: 0 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    height: 50%;
+}
+
+nav ul li button{
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+
+}

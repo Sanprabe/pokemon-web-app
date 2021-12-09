@@ -1,0 +1,116 @@
+.card--container{
+    position: relative;
+
+    max-width: 275px;
+    min-width: 210px;
+    /* height: 300px; */
+    height: 400px;
+    margin: 15px auto;
+    padding: 15px 0;
+    padding-top: 10px;
+
+    background-color: #4FA9EF;
+    border: 10px solid #FDCE18;
+    border-radius: 5px;
+
+    font-family: 'Play', sans-serif;
+    
+}
+
+.card-close--container{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+    height: 22px;
+    width: 22px;
+    margin: 2px;
+
+    background-color: transparent;
+    border: none;
+    background-image: url('../../Assets/iconmonstr-x-mark-8.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.card--container .card--title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.card-image--container{
+    background-color: white;
+    padding: 5px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    
+    position: relative;
+}
+
+.card-image--container img{
+    position: absolute;
+    height: 200px;
+    align-self: center;
+    border: none;
+    /* clip-path: inset(27%); */
+}
+
+
+.card-stats--main_container{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.card-stats--title{
+    text-align: start;
+    margin-left: 10px;
+}
+
+.card-stats--type {
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.card-stats--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-stat{
+    display: flex;
+    margin-left: 25px;
+}
+
+.card-save--container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-save--container button{
+    border: 1px solid rgb(50, 50, 50);
+    /* border-radius: 20px; */
+    background-color: rgb(37, 211, 2);
+    height: 22px;
+    width: 80px;
+
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+
+    box-shadow:   -2px 0 0 0 black,
+                   2px 0 0 0 black,
+                   0 -2px 0 0 black,
+                   0 2px 0 0 black;
+}

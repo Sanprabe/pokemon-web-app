@@ -1,0 +1,25 @@
+.my-pokes--container{
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.my-pokes--title{
+    margin: 10px 0;
+    text-align: center;
+    
+    min-height: 100px;
+    width: 100%;
+    
+    background-image: url('../../../Assets/pokedeex.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+
+header h2{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    margin-top: 15px;
+}

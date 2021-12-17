@@ -68,8 +68,8 @@ function GameProvider(props){
             setCardPokemon(undefined) // No pokemon = No card
         }else{ // If pokemon does exist
             urlPokemon = pokemonUser[0].url
-            setUrlPokemon(urlPokemon) // State that has the 
-            document.getElementById('searchBar-specific-pokemon').value = ''
+            setUrlPokemon(urlPokemon) // Update the url used to set the pokemons card
+            document.getElementById('searchBar-specific-pokemon').value = '' // Empty of the searchbar
         }
     }
 
